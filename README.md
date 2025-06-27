@@ -1,30 +1,14 @@
-# Welcome To My Online Drug Store app!
+# Welcome To My Online Room Design App!
 
 This is a personal project that I am currently developing to test and improve my abilities as a developer!
 
 On this website, you can:
-
-- Search and browse for drugs
-- Add drugs to your cart and (pretend to) buy them
-- Match a drug based on your symptoms using an AI-powered tool
-- Register and log in as a user
-- View your cart and purchase history
-- See detailed product information, including tags and images
-- Enjoy a modern, responsive UI built with Next.js and Tailwind CSS
 
 > **Note:** This project is for learning and demonstration purposes only. No real purchases or deliveries are made.
 
 ---
 
 ## Features
-
-- **Product Catalog:** Browse a wide range of medications with detailed descriptions, prices, and tags.
-- **AI Symptom Matcher:** Enter your symptoms to get suggested diseases and related drugs using a machine learning model.
-- **User Authentication:** Register, log in, and manage your account securely.
-- **Cart & Purchase History:** Add products to your cart, update quantities, and view your purchase history.
-- **Admin Controls:** (Planned) Admins can add, update, unlist, or delete products.
-- **Modern UI:** Clean, responsive design with custom theming and animations.
-- **API-Driven:** All data is served via a Django REST API.
 
 ---
 
@@ -34,7 +18,6 @@ On this website, you can:
 
 - **Language:** Python
 - **Framework:** Django
-- **AI/ML:** scikit-learn, joblib (RandomForestClassifier for disease prediction)
 - **Database:** SQLite
 
 ### Client
@@ -52,7 +35,7 @@ On this website, you can:
 /Backend
     manage.py
     Backend/         # Django project settings
-    DrugStore/       # Django app: models, views, utils, migrations
+    RoomDesignAPP/       # Django app: models, views, utils, migrations
     media/           # Uploaded product images
     db.sqlite3       # Database
 
@@ -97,10 +80,7 @@ On this website, you can:
 
 ---
 
-## AI Symptom Matcher
-
-- The backend uses a trained RandomForestClassifier to predict diseases based on user symptoms.
-- Data source: [Disease and Symptoms Dataset](https://data.mendeley.com/datasets/2cxccsxydc/1)
+## AI Room Builder
 
 ---
 
